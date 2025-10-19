@@ -15,7 +15,7 @@ Upload your dataset, ask questions like
 
 ---
 
-## 🚀 Features
+##  Features
 
  **Natural Language Query to Visualization**
 Ask in plain English — Groq interprets and returns the appropriate plot structure.
@@ -47,25 +47,11 @@ Groq analyzes patterns, missing values, correlations, and anomalies — deliveri
 
 
 
-## ⚙️ Setup Instructions
+## Setup Instructions
 
-### 1️⃣ Clone the Repository
+### 1️ Clone the Repository
 
-```bash
-git clone https://github.com/yourusername/groq-streamlit-visualizer.git
-cd groq-streamlit-visualizer
-```
-
-### 2️⃣ Create a Virtual Environment
-
-```bash
-python -m venv venv
-venv\Scripts\activate    # (Windows)
-# OR
-source venv/bin/activate  # (macOS/Linux)
-```
-
-### 3️⃣ Install Dependencies
+### 2 Install Dependencies
 
 ```bash
 pip install -r requirements.txt
@@ -81,7 +67,7 @@ matplotlib
 python-dotenv
 ```
 
-### 4️⃣ Configure Environment Variables
+### 3 Configure Environment Variables
 
 Create a `.env` file in the project root:
 
@@ -89,7 +75,7 @@ Create a `.env` file in the project root:
 GROQ_API_KEY=your_groq_api_key_here
 ```
 
-### 5️⃣ Run the App
+### 5️ Run the App
 
 ```bash
 streamlit run app.py
@@ -97,7 +83,7 @@ streamlit run app.py
 
 ---
 
-## 💬 Example Usage
+##  Example Usage
 
 ### Upload:
 
